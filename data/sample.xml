@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<environment>
+    <EnvironmentToExecute>tm_test</EnvironmentToExecute>
+    <WbEnvironment>test</WbEnvironment>
+    <Wbuser>tytest</Wbuser>
+    <Wbpassword>TWFXzExMTE</Wbpassword>
+    <Swaptionstle>American</Swaptionstle>
+    <firefox-profile enabled="false">
+        <profile-name>automation</profile-name>
+    </firefox-profile>
+
+    <application id="tm">
+        <db>
+            <driverclassname>oracle.jdbc.driver.OracleDriver</driverclassname>
+            <url>jdbc:oracle:thin:@tlv-ty-d001:1521/TOTY100</url>
+            <username>tytest</username>
+            <password>cmxtN1JfREc</password>
+        </db>
+    </application>
+
+    <application id="summit">
+        <db>
+            <driverclassname>oracle.jdbc.driver.OracleDriver</driverclassname>
+            <url>jdbc:oracle:thin:@tlv-ty-d001:1521/TODX100</url>
+            <username>summit</username>
+            <password>Auto#es9</password>
+        </db>
+    </application>
+</environment>
